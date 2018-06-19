@@ -12,18 +12,32 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* Top page title CSS */
-.title {
+/* Info Title */
+.info {
 	position: fixed;
 	top: 5%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
-/* Info CSS */
-.info {
+/* Redirects Title */
+.redirects {
+  position: fixed;
+  top: 5%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+/* Info Links */
+.infolinks {
   position: fixed;
   top: 13%;
   left: 50%;
+  transform: translate(-50%, -50%);
+} 
+/* Redirect Links */
+.redirectlinks {
+  position: fixed;
+  top: 18%;
+  left: 40%;
   transform: translate(-50%, -50%);
 } 
 /* Text above background CSS */
