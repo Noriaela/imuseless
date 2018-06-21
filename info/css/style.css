@@ -1,16 +1,20 @@
 /* Video CSS */
-body, html {
-  height: 100%;
-  margin: 0;
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-background-style: cover;
+  -moz-background-style: cover;
+  -o-background-size: cover;
+  background-style: cover;
 }
-
-.bg {
-  /* Image */
-  background-image: url(../../extra/backgrounds/background2.jpg);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+/* Text above background CSS */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
 }
 /* Info Title */
 .info {
@@ -40,12 +44,6 @@ body, html {
   left: 40%;
   transform: translate(-50%, -50%);
 } 
-/* Text above background CSS */
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
 /* Center text CSS */
 div.a {
 	text-align: center;
