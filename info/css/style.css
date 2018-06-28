@@ -40,7 +40,7 @@
 /* Redirect Links */
 .redirectlinks {
   position: fixed;
-  top: 18%;
+  top: 20%;
   left: 40%;
   transform: translate(-50%, -50%);
 } 
