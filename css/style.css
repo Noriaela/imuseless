@@ -16,9 +16,13 @@
   text-align: center;
   color: white;
 }
-/* Stop DIV from moving when webpage is rezied */
-div#content {
-  min-width: 40em;
+* {
+  margin: 0;
+}
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
 }
 /* Middle page title */
 .title {
