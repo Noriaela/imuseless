@@ -1,1 +1,3 @@
 # Warlauke.github.io
+
+Made this [website](https://sonicrules11.github.io/Warlauke/) for learning purposes since i've been quite interestign in HTMl5, CSS, and JS for a while now and I thought this would be a great way to sololearn instead of spending time reading HTML guides. So far the website is goign pretty well i've been using [W3Schools](https://www.w3schools.com) since it has useful info for an idiot like me. Currently the website does not have any buttons to check out other pages but you can use different URLs based on the folders, [this page has a link to most of the shit on the website](https://sonicrules11.github.io/Warlauke/info/index.html)

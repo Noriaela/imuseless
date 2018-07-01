@@ -1,4 +1,4 @@
-/* Video CSS */
+/* Video */
 #myVideo {
   position: fixed;
   right: 0;
@@ -10,48 +10,52 @@
   -o-background-size: cover;
   background-style: cover;
 }
-/* Text above background CSS */
+/* Text above background */
 .container {
   position: relative;
   text-align: center;
   color: white;
 }
-/* Middle page title CSS */
+/* Stop DIV from moving when webpage is rezied */
+div#content {
+  min-width: 40em;
+}
+/* Middle page title */
 .title {
   position: fixed;
   top: 46%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* Subtitle CSS */
+/* Subtitle */
 .subtitle {
   position: fixed;
   top: 53%;
   left: 50%;
   transform: translate(-50%, -50%);
 } 
-/* Github Link/Icon CSS */
+/* Github Link/Icon */
 .github {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* Youtube Link/Icon CSS */
+/* Youtube Link/Icon */
 .youtube {
   position: fixed;
   top: 50%;
   left: 47%;
   transform: translate(-50%, -50%);
 }
-/* Steam Link/Icon CSS */
+/* Steam Link/Icon */
 .steam {
   position: fixed;
   top: 50%;
   left: 53%;
   transform: translate(-50%, -50%);
 }
-/* Disable visited website link CSS */
+/* Disable visited website link */
 a:link, a:visited, a:active {
     text-decoration: none;
     color: white;
