@@ -33,14 +33,14 @@
 /* Info Links */
 .infolinks {
   position: fixed;
-  top: 12.9%;
+  top: 14.5%;
   left: 50%;
   transform: translate(-50%, -50%);
 } 
 /* Redirect Links */
 .redirectlinks {
   position: fixed;
-  top: 20%;
+  top: 11%;
   left: 40%;
   transform: translate(-50%, -50%);
 } 
