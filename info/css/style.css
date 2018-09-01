@@ -12,7 +12,7 @@
 }
 /* Text above background CSS */
 .container {
-  position: relative;
+  position: absolute;
   text-align: center;
   color: white;
 }
@@ -23,27 +23,27 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
-/* Redirects Title */
-.redirects {
-  position: fixed;
-  top: 5%;
-  left: 40%;
-  transform: translate(-50%, -50%);
-}
 /* Info Links */
 .infolinks {
   position: fixed;
   top: 14.5%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+/* Redirects Title */
+.redirects {
+  position: fixed;
+  top: 5%;
+  left: 40%;
+  transform: translate(-50%, -50%);
 } 
 /* Redirect Links */
 .redirectlinks {
   position: fixed;
-  top: 11%;
+  top: 13%;
   left: 40%;
   transform: translate(-50%, -50%);
-} 
+}
 /* Center text CSS */
 div.a {
 	text-align: center;
@@ -53,7 +53,7 @@ a:link, a:visited, a:active {
     text-decoration: none;
     color: white;
 }
-
+/* Hover Effect */
 a:hover {
   text-decoration: none;
   color: red;
