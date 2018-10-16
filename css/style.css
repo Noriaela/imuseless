@@ -19,6 +19,9 @@
 * {
   margin: 0;
 }
+audio {
+  display: none;
+}
 #wrapper {
   margin-left: auto;
   margin-right: auto;

@@ -10,6 +10,10 @@
   -o-background-size: cover;
   background-style: cover;
 }
+/* Audio CSS */
+audio {
+  display: none;
+}
 /* Text above background CSS */
 .container {
   position: absolute;
