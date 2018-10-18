@@ -1,66 +1,32 @@
-/* Video */
-#myVideo {
+/* Background */
+#background {
   position: fixed;
-  right: 0;
-  bottom: 0;
+  top: 0;
+  left: 0;
   min-width: 100%;
   min-height: 100%;
-  -webkit-background-style: cover;
-  -moz-background-style: cover;
-  -o-background-size: cover;
-  background-style: cover;
 }
-/* Text above background */
+/* Container for above text */
 .container {
   position: relative;
   text-align: center;
   color: white;
 }
-* {
-  margin: 0;
-}
-audio {
-  display: none;
-}
-#wrapper {
-  margin-left: auto;
-  margin-right: auto;
-  width: 960px;
-}
-/* Middle page title */
+/* Center Text */
 .title {
-  position: fixed;
-  top: 46%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-/* Subtitle */
-.subtitle {
-  position: fixed;
-  top: 53%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} 
-/* Github Link/Icon */
-.github {
-  position: fixed;
+  font-size: 40px;
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 250%);
 }
-/* Youtube Link/Icon */
-.youtube {
-  position: fixed;
-  top: 50%;
-  left: 47%;
-  transform: translate(-50%, -50%);
+/* Font VCR */
+@font-face {
+  font-family: Perfect;
+  src: url('../media/fonts/Perfect DOS VGA 437.ttf');
 }
-/* Steam Link/Icon */
-.steam {
-  position: fixed;
-  top: 50%;
-  left: 53%;
-  transform: translate(-50%, -50%);
+p {
+  font-family: Perfect, Fallback, sans-serif;
 }
 /* Disable visited website link */
 a:link, a:visited, a:active {
@@ -70,8 +36,8 @@ a:link, a:visited, a:active {
 /* Glow when hover over link */
 a:hover {
   text-decoration: none;
-  color: #fff;
-  text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+  color: #ff0000;
+  text-shadow: -1px 1px 2px #ffc, 1px -1px 2px #fff;
   -webkit-transition: 500ms linear 0s;
   -moz-transition: 500ms linear 0s;
   -o-transition: 500ms linear 0s;
