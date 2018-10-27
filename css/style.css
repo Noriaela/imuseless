@@ -1,10 +1,14 @@
 /* Background */
 #background {
   position: fixed;
-  top: 0;
-  left: 0;
+  right: 0;
+  bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  -webkit-background-style: cover;
+  -moz-background-style: cover;
+  -o-background-size: cover;
+  background-style: cover;
 }
 /* Container for above text */
 .container {
