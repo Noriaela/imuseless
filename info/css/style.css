@@ -10,15 +10,18 @@
   -o-background-size: cover;
   background-style: cover;
 }
-/* Audio CSS */
-audio {
-  display: none;
-}
 /* Text above background CSS */
 .container {
   position: absolute;
   text-align: center;
   color: white;
+}
+/* Other Pages Title */
+.otherpages {
+  position: fixed;
+  top: 5%;
+  left: 59%;
+  transform: translate(-50%, -50%);
 }
 /* Info Title */
 .info {
@@ -27,6 +30,20 @@ audio {
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+/* Redirects Title */
+.redirects {
+  position: fixed;
+  top: 5%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+/* Other Pages Links */
+.otherpageslinks {
+  position: fixed;
+  top: 11%;
+  left: 59%;
+  transform: translate(-50%, -50%);
+}
 /* Info Links */
 .infolinks {
   position: fixed;
@@ -34,13 +51,6 @@ audio {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* Redirects Title */
-.redirects {
-  position: fixed;
-  top: 5%;
-  left: 40%;
-  transform: translate(-50%, -50%);
-} 
 /* Redirect Links */
 .redirectlinks {
   position: fixed;
@@ -48,6 +58,7 @@ audio {
   left: 40%;
   transform: translate(-50%, -50%);
 }
+
 /* Center text CSS */
 div.a {
 	text-align: center;
