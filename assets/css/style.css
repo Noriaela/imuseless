@@ -1,61 +1,40 @@
- @import url('https://fonts.googleapis.com/css?family=Oswald|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
 
-body {
-  background-color: #414741;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+#bg {
+  position:fixed; 
+  top:-50%; 
+  left:-50%; 
+  width:200%; 
+  height:200%;
 }
-
-#video {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    -webkit-background-style: cover;
-    -moz-background-style: cover;
-    -o-background-size: cover;
-    background-style: cover;
+#bg img {
+  top:0; 
+  left:0; 
+  right:0; 
+  bottom:0; 
+  margin:auto; 
+  min-width:50%;
+  min-height:50%;
+  filter: blur(20px);
 }
-
-#center {
-    position: absolute;
-	  z-index: 1337;
-    left: 50%;
-    top: 40%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-}
-
-
-#title {
+#title { 
   text-shadow: 1px 1px 2px black;
   letter-spacing: 0px;
-
   font-weight: 900;
   font-size: 1.5vw;
-  color: white;
   text-align: center;
-  margin: 8
+  font-family: 'Orbitron', sans-serif;
+  margin: 8;
 }
-
 a {
     color: white;
-    font-family: 'Quicksand', sans-serif;
-		font-size: 120%;
-		text-align: center;
-		vertical-align: middle;
-		text-decoration: none;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 120%;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
 
 }
-
 a:hover {
   text-decoration: none;
   color: #ff0000;
@@ -64,4 +43,18 @@ a:hover {
   -o-transition: 500ms linear 0s;
   transition: 500ms linear 0s;
   outline: 0 none;
+}
+#center {
+  position: absolute;
+  z-index: 666;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+audio { 
+   display:none;
 }
