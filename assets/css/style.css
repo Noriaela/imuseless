@@ -2,14 +2,13 @@
 
 #bgvideo {
   position: fixed;
-  right: 0;
+  right: 0; 
   bottom: 0;
-  min-width: 100%;
+  min-width: 100%; 
   min-height: 100%;
-  -webkit-background-style: cover;
-  -moz-background-style: cover;
-  -o-background-size: cover;
-  background-style: cover;
+  width: auto; 
+  height: auto;
+  z-index: -100;
 }
 
 #bg {
