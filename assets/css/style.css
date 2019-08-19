@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
 
 #bgvideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  -webkit-background-style: cover;
-  -moz-background-style: cover;
-  -o-background-size: cover;
-  background-style: cover;
+  top:0; 
+  left:0; 
+  right:0; 
+  bottom:0; 
+  margin:auto; 
+  min-width:50%;
+  min-height:50%;
+  filter: blur(20px);
 }
 
 #bg {
