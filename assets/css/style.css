@@ -21,6 +21,7 @@
   font-family: 'Orbitron', sans-serif;
   margin: 8;
 }
+
 a {
     color: white;
     font-family: 'Century Gothic', sans-serif;
@@ -30,15 +31,17 @@ a {
     text-decoration: none;
 
 }
+
 a:hover {
   text-decoration: none;
   text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+  color: red;
   -webkit-transition: 500ms linear 0s;
   -moz-transition: 500ms linear 0s;
   -o-transition: 500ms linear 0s;
   transition: 500ms linear 0s;
-  outline: 0 none;
 }
+
 #center {
   position: absolute;
   z-index: 666;
@@ -49,7 +52,4 @@ a:hover {
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
-}
-audio { 
-   display:none;
 }
