@@ -6,10 +6,14 @@
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  transform: scale(1.1); 
   -webkit-background-style: cover;
   -moz-background-style: cover;
   -o-background-size: cover;
   background-style: cover;
+
 }
 
 #title { 
