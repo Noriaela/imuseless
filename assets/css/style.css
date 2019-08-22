@@ -38,7 +38,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+  text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #000;
   color: red;
   -webkit-transition: 500ms linear 0s;
   -moz-transition: 500ms linear 0s;
