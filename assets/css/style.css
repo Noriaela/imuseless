@@ -22,13 +22,13 @@
   font-weight: 900;
   font-size: 300%;
   text-align: center;
-  font-family: 'VT323 Regular';
+  font-family: 'VT323';
   margin: 8;
 }
 
 a {
     color: white;
-    font-family: 'VT323 Regular';
+    font-family: 'VT323';
     font-size: 120%;
     text-align: center;
     vertical-align: middle;
