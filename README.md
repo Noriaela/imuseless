@@ -2,5 +2,4 @@
 
 #### Credit
 
-* [Video Source](https://www.youtube.com/watch?v=mrqFNUeJkbk)
-* [Song Source](https://soundcloud.com/hell_usa/idontflinch)
+* [Video Source](https://smillingapple.tumblr.com/post/167694096499/smilling-apple-pixel-art-collection-on-wallpaper)
