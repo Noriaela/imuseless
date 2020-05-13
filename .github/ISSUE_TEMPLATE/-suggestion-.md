@@ -1,7 +1,7 @@
 ---
 name: "[Suggestion]"
 about: Suggest an idea for this project
-title: '[Suggestion]"your suggestion here"'
+title: '[Suggestion]your suggestion here'
 labels: enhancement
 assignees: sonicrules11
 
