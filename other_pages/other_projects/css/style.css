@@ -1,0 +1,20 @@
+body {
+	background: url(../assets/images/background.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+a:link, a:visited {
+
+}
+
+a:hover {
+
+}
+
+.container {
+	position: relative;
+	color: white;
+}
