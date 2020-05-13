@@ -6,12 +6,22 @@ body {
   background-size: cover;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:link, a:visited {
   color: pink;
 }
 
 a:hover {
   color: red;
+}
+
+a:button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
 }
 
 .header img {
